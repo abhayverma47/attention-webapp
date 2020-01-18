@@ -1,6 +1,6 @@
 import React from 'react';
 import Cards from '../cards/cards';
-import Searchbox from '../../searchbox/searchbox';
+import Searchbox from '../searchbox/searchbox';
 
 
 const Dashboard = ({ robots, searchchange }) => {

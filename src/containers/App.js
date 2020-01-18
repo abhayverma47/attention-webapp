@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
-import Navbar from './navbar/navbar';
-import Logo from './logo/logo';
-import Signin from './signin/signin';
-import Dashboard from './dashboard/dashboard';
+import Navbar from '../components/navbar/navbar';
+import Logo from '../components/logo/logo';
+import Signin from '../components/signin/signin';
+import Dashboard from '../components/dashboard/dashboard';
 
 const params = {
   "particles": {
@@ -88,6 +88,8 @@ class App extends Component {
     const filterer = robots.filter(robo => {
       return robo.name.toLowerCase().includes(searchfield.toLowerCase());
     })
+
+
 
     return (
 
